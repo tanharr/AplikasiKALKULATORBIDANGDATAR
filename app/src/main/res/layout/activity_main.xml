@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:text="Masukan Angka"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textDirection="inherit"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtPanjang"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:hint="Panjang" />
+
+    <EditText
+        android:id="@+id/txtTinggi"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:hint="Tinggi" />
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_persegi"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:text="persegi"
+            android:textColor="@color/design_default_color_primary"
+            />
+
+        <Button
+            android:id="@+id/btn_segitiga"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:text="Segitiga"
+            android:textColor="@color/design_default_color_primary"
+            />
+
+        <Button
+            android:id="@+id/btn_lingkaran"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:text="Lingkaran"
+            android:textColor="@color/design_default_color_primary"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="370dp"
+        android:id="@+id/txtLuas" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="430dp"
+        android:id="@+id/txtKeliling"/>
+
+
+</RelativeLayout>
